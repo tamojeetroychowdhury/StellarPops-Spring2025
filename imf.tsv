@@ -1,0 +1,138 @@
+#
+#   VizieR Astronomical Server vizier.cds.unistra.fr
+#    Date: 2026-02-03T17:47:37 [V7.5.4]
+#   In case of problem, please report to:	cds-question@unistra.fr
+#
+#
+#Coosys	J2000:	eq_FK5 J2000
+#INFO	service_protocol=ASU	  IVOID of the protocol through which the data was retrieved
+#INFO	request_date=2026-02-03T17:47:37	  Query execution date
+#INFO	request=https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-oc.form=dec&-out.max=unlimited&-c.eq=J2000&-c.r=  2&-c.u=arcmin&-c.geom=r&-source=J/ApJ/762/123/table1&-order=I&-out=Seq&-out=Name&-out=log(N)&-out=log(Mm/Mc)&-out=alpha&-out=e_alpha&-out=Mmin&-out=Mmax&-out=Dalpha&-out=Aut&-out=BibCode&-out=SimbadName&-out=NED&NED=NED&-out=_RA&-out=_DE&	  Full request URL (POST)
+#INFO	contact=cds-question@unistra.fr	  Email or URL to contact publisher
+#INFO	server_software=VizieR/7.5.4	  Software version
+#INFO	publisher=CDS	  Data centre that produced the VOTable
+
+#RESOURCE=yCat_17620123
+#Name: J/ApJ/762/123
+#Title: PHAT. IV. Initial Mass Function (Weisz+, 2013)
+#INFO	ivoid=ivo://cds.vizier/j/apj/762/123	    IVOID of underlying data collection
+#INFO	data_ivoid=ivo://cds.vizier/j/apj/762/123	    IVOID of underlying data collection
+#INFO	creator=Weisz D.R.	    First author or institution
+#INFO	cites=bibcode:2013ApJ...762..123W	    Article or Data origin sources
+#INFO	journal=ApJ	    Journal name
+#INFO	original_date=2013	    Year of the article publication
+#INFO	reference_url=https://cdsarc.cds.unistra.fr/viz-bin/cat/J/ApJ/762/123	    Dataset landing page
+#INFO	citation=doi:10.26093/cds/vizier.17620123	    Dataset identifier that can be used for citation
+#INFO	publication_date=2018-01-05	    Date of first publication in the data centre
+#INFO	rights_uri=https://cds.unistra.fr/vizier-org/licences_vizier.html	    Licence URI
+#Table	J_ApJ_762_123_table1:
+#Name: J/ApJ/762/123/table1
+#Title: Literature constraints on the IMF slope
+#Column	Seq	(I2)	[1/89] Running sequence number	[ucd=meta.id]
+#Column	Name	(a10)	Open cluster name	[ucd=meta.id;meta.main]
+#Column	log(N)	(F5.2)	[0.7/3.4] Number of stars	[ucd=meta.number]
+#Column	log(Mm/Mc)	(F5.2)	[0.1/1.1] Mass range (M_max,obs_/M_comp_)	[ucd=phys.mass;arith.ratio]
+#Column	alpha	(F5.2)	[-0.1/4.5] MF slope {alpha} value (1)	[ucd=stat.fit.param]
+#Column	e_alpha	(F5.2)	[0.03/1.8] 1{sigma} uncertainty on alpha	[ucd=stat.error;pos.eq.ra]
+#Column	Mmin	(F4.1)	[0.4/10] Minimal star mass range M_min_ (1)	[ucd=phys.mass]
+#Column	Mmax	(F5.1)	[1.9/120] Maximal star mass range M_max_ (1)	[ucd=phys.mass]
+#Column	Dalpha	(F5.2)	[0.04/1.76] Ratio of literature to theory error {Delta}{alpha}_lit_/{Delta}{alpha}_th_ (2)	[ucd=stat.fit.omc]
+#Column	Aut	(a17)	First author's name of the reference	[ucd=meta.bib.author]
+#Column	BibCode	(A19)	Reference (bibcode)	[ucd=meta.ref;pos.frame]
+#Column	SimbadName	(a29)	Simbad column added by the CDS	[ucd=meta.id]
+#Column	NED	(A3)	Simbad column added by the CDS	[ucd=meta.ref.url]
+#Column	_RA	(F8.4)	Right Ascension (J2000) from SIMBAD (not part of the original data)	[ucd=pos.eq.ra;meta.main]
+#Column	_DE	(F8.4)	Declination (J2000) from SIMBAD (not part of the original data)	[ucd=pos.eq.dec;meta.main]
+Seq	Name	log(N)	log(Mm/Mc)	alpha	e_alpha	Mmin	Mmax	Dalpha	Aut	BibCode	SimbadName	NED	_RA	_DE
+ 	 	 	 	 	 	Msun	Msun	 	 	 	 	 	deg	deg
+--	----------	-----	-----	-----	-----	----	-----	-----	-----------------	-------------------	-----------------------------	---	--------	--------
+ 1	NGC 2323  	 3.31	 0.99	 2.94	 0.15	 0.4	  3.9	 1.66	Kalirai et al.   	2003AJ....126.1402K	NGC 2323                     	NED	105.6979	-08.3378
+ 2	M11       	 3.26	 0.49	 2.49	 0.09	 1.1	  3.4	 0.32	Santos et al.    	2005A&A...442..201S	M11                          	NED	282.7708	-06.2700
+ 3	NGC 663   	 3.15	 0.80	 2.38	 0.22	 1.6	 10.0	 1.54	Pandey et al.    	2005MNRAS.358.1290P	NGC 663                      	NED	026.5375	+61.2350
+ 4	NGC 2168  	 3.00	 0.78	 2.29	 0.27	 0.6	  3.6	 1.76	Kalirai et al.   	2003AJ....126.1402K	NGC 2168                     	NED	092.2250	+24.3333
+ 5	NGC 2422  	 2.60	 0.44	 3.07	 0.08	 0.9	  2.5	 0.23	Prisinzano et al.	2003A&A...404..927P	NGC 2422                     	NED	114.1458	-14.4833
+ 6	Tr23      	 2.48	 0.32	 2.40	 0.60	 1.0	  2.1	 1.42	Bonatto & Bica   	2007MNRAS.377.1301B	Tr23                         	NED	240.2180	-53.5330
+ 7	Stock2    	 2.31	 0.44	 3.01	 0.40	 1.5	  4.1	 1.05	Sanner & Geffert 	2001A&A...370...87S	Stock2                       	NED	033.6792	+59.4850
+ 8	NGC 4852  	 2.30	 0.73	 2.30	 0.30	 0.6	  3.2	 1.38	Carraro et al.   	2005A&A...436..527C	NGC 4852                     	NED	195.0375	-59.6133
+ 9	NGC 654   	 2.26	 0.98	 2.16	 0.05	 1.2	 11.5	 0.41	Pandey et al.    	2005MNRAS.358.1290P	NGC 654                      	NED	026.0000	+61.8850
+10	NGC 4349  	 2.21	 0.44	 2.18	 0.12	 1.8	  5.0	 0.30	Tarrab           	1982A&A...109..285T	NGC 4349                     	NED	186.0333	-61.8717
+11	Orion     	 2.13	 1.04	 2.39	 0.15	 1.3	 14.1	 1.31	Tarrab           	1982A&A...109..285T	Orion                        	NED	083.8221	-05.3911
+12	Pleiades  	 2.10	 0.61	 2.99	 0.40	 1.0	  4.1	 1.31	Sanner & Geffert 	2001A&A...370...87S	Pleiades                     	NED	056.7500	+24.1167
+13	Ly9       	 2.09	 0.32	 2.10	 0.70	 1.1	  2.3	 1.41	Bonatto & Bica   	2007MNRAS.377.1301B	Cl Lynga 9                   	NED	245.1710	-48.5170
+14	NGC 3532  	 2.06	 0.45	 2.55	 0.21	 1.6	  4.5	 0.50	Tarrab           	1982A&A...109..285T	NGC 3532                     	NED	166.4125	-58.7533
+15	Ly4       	 2.02	 0.28	 2.30	 0.20	 1.0	  1.9	 0.37	Bonatto & Bica   	2007MNRAS.377.1301B	Cl Lynga 4                   	NED	233.3330	-55.2400
+16	NGC 5715  	 1.97	 0.30	 2.30	 0.50	 1.1	  2.2	 0.92	Bonatto & Bica   	2007MNRAS.377.1301B	NGC 5715                     	NED	220.8750	-57.5670
+17	CygOB2    	 1.97	 1.00	 1.90	 0.20	10.0	100.0	 1.48	Massey et al.    	1995ApJ...454..151M	Ass Cyg OB 2                 	NED	308.3000	+41.3167
+18	alphaPer  	 1.95	 0.84	 2.73	 0.23	 1.3	  8.9	 1.14	Tarrab           	1982A&A...109..285T	NAME ALPHA PER CLUSTER       	NED	051.6750	+48.8000
+19	Pleiades  	 1.94	 0.69	 2.89	 0.27	 1.3	  6.3	 0.93	Tarrab           	1982A&A...109..285T	Pleiades                     	NED	056.7500	+24.1167
+20	LH9       	 1.92	 0.74	 2.40	 0.20	10.0	 55.0	 0.78	Massey et al.    	1995ApJ...454..151M	LH9                          	NED	074.1625	-66.4833
+21	NGC 346   	 1.92	 0.85	 2.30	 0.10	10.0	 70.0	 0.50	Massey et al.    	1995ApJ...454..151M	NGC 346                      	NED	014.8250	-72.1800
+22	Tr14/16   	 1.91	 1.08	 2.00	 0.20	10.0	120.0	 1.72	Massey et al.    	1995ApJ...454..151M	Cl Trumpler 14;Cl Trumpler 16	NED	160.9833	-59.5500
+23	LH58      	 1.82	 0.70	 2.40	 0.20	10.0	 50.0	 0.66	Massey et al.    	1995ApJ...454..151M	LH58                         	NED	081.6875	-68.8317
+24	Praesepe  	 1.81	 0.39	 3.12	 0.39	 1.3	  3.2	 0.72	Tarrab           	1982A&A...109..285T	Praesepe                     	NED	130.1000	+19.6667
+25	LH10      	 1.81	 0.95	 2.10	 0.10	10.0	 90.0	 0.60	Massey et al.    	1995ApJ...454..151M	LH10                         	NED	074.2146	-66.4069
+26	NGC 2516  	 1.81	 0.65	 2.95	 0.33	 2.0	  8.9	 0.97	Tarrab           	1982A&A...109..285T	NGC 2516                     	NED	119.5167	-60.7533
+27	NGC 6067  	 1.80	 0.50	 3.18	 0.39	 4.0	 12.6	 0.85	Tarrab           	1982A&A...109..285T	NGC 6067                     	NED	243.2958	-54.2183
+28	Haydes    	 1.79	 0.33	 3.58	 0.48	 1.3	  2.8	 0.82	Tarrab           	1982A&A...109..285T	NAME Hyades                  	NED	066.7250	+15.8667
+29	NGC 2264  	 1.78	 0.56	 2.53	 0.29	 2.2	  7.9	 0.69	Tarrab           	1982A&A...109..285T	NGC 2264                     	NED	100.2417	+09.8950
+30	NGC 457   	 1.71	 0.45	 1.36	 0.05	 5.0	 14.1	 0.09	Tarrab           	1982A&A...109..285T	NGC 457                      	NED	019.8958	+58.2867
+31	NGC 6405  	 1.68	 0.65	 2.84	 0.37	 2.0	  8.9	 0.99	Tarrab           	1982A&A...109..285T	NGC 6405                     	NED	265.0833	-32.2533
+32	NGC 2281  	 1.67	 0.60	 4.17	 0.53	 1.4	  5.6	 1.27	Tarrab           	1982A&A...109..285T	NGC 2281                     	NED	102.0708	+41.0783
+33	NGC 6281  	 1.63	 0.45	 2.14	 0.23	 1.6	  4.5	 0.40	Tarrab           	1982A&A...109..285T	NGC 6281                     	NED	256.1708	-37.9850
+34	NGC 6633  	 1.62	 0.29	 3.08	 0.45	 1.8	  3.5	 0.66	Tarrab           	1982A&A...109..285T	NGC 6633                     	NED	276.8800	+06.5700
+35	Cz37      	 1.61	 0.14	-0.10	 0.90	 1.8	  2.5	 1.27	Bonatto & Bica   	2007MNRAS.377.1301B	Cl Czernik 37                	NED	268.3000	-27.3667
+36	LH117/118 	 1.60	 1.00	 2.60	 0.20	10.0	100.0	 1.08	Massey et al.    	1995ApJ...454..151M	LH 117;LH 118                	NED	087.2292	-70.0683
+37	NGC 2099  	 1.59	 0.51	 2.60	 0.38	 2.2	  7.1	 0.71	Tarrab           	1982A&A...109..285T	NGC 2099                     	NED	088.0750	+32.5533
+38	NGC 4755  	 1.58	 0.40	 2.10	 0.23	 5.6	 14.1	 0.36	Tarrab           	1982A&A...109..285T	NGC 4755                     	NED	193.4125	-60.3617
+39	NGC 6025  	 1.57	 0.45	 3.06	 0.50	 2.5	  7.1	 0.84	Tarrab           	1982A&A...109..285T	NGC 6025                     	NED	240.8208	-60.4317
+40	NGC 2362  	 1.56	 0.75	 2.30	 0.32	 2.5	 14.1	 0.96	Tarrab           	1982A&A...109..285T	NGC 2362                     	NED	109.6708	-24.9550
+41	NGC 2451  	 1.54	 0.78	 2.10	 0.27	 1.3	  7.9	 0.86	Tarrab           	1982A&A...109..285T	NGC 2451                     	NED	116.3500	-37.9667
+42	IC2602    	 1.53	 0.63	 1.88	 0.21	 1.3	  5.6	 0.48	Tarrab           	1982A&A...109..285T	IC2602                       	NED	160.7417	-64.4000
+43	NGC 7243  	 1.48	 0.41	 1.83	 0.18	 2.2	  5.6	 0.26	Tarrab           	1982A&A...109..285T	NGC 7243                     	NED	333.7833	+49.8983
+44	IC4665    	 1.48	 0.54	 1.73	 0.16	 1.8	  6.3	 0.29	Tarrab           	1982A&A...109..285T	IC4665                       	NED	266.5750	+05.7167
+45	NGC 6611  	 1.48	 0.88	 1.90	 0.20	10.0	 75.0	 0.71	Massey et al.    	1995ApJ...454..151M	NGC 6611                     	NED	274.7000	-13.8067
+46	NGC 1960  	 1.40	 0.41	 1.24	 0.05	 3.5	  8.9	 0.07	Tarrab           	1982A&A...109..285T	NGC 1960                     	NED	084.0750	+34.1400
+47	NGC 5662  	 1.40	 0.60	 1.76	 0.19	 2.5	 10.0	 0.35	Tarrab           	1982A&A...109..285T	NGC 5662                     	NED	218.9042	-56.6183
+48	NGC 2422  	 1.38	 0.65	 2.38	 0.42	 2.0	  8.9	 0.84	Tarrab           	1982A&A...109..285T	NGC 2422                     	NED	114.1458	-14.4833
+49	NGC 1662  	 1.38	 0.44	 2.16	 0.32	 1.8	  5.0	 0.44	Tarrab           	1982A&A...109..285T	NGC 1662                     	NED	072.1125	+10.9367
+50	NGC 5460  	 1.38	 0.35	 3.35	 0.71	 2.5	  5.6	 0.88	Tarrab           	1982A&A...109..285T	NGC 5460                     	NED	211.8625	-48.3433
+51	IC1805    	 1.38	 1.00	 2.30	 0.20	10.0	100.0	 0.72	Massey et al.    	1995ApJ...454..151M	IC1805                       	NED	038.1750	+61.4500
+52	NGC 2539  	 1.36	 0.20	 2.61	 0.39	 2.0	  3.2	 0.44	Tarrab           	1982A&A...109..285T	NGC 2539                     	NED	122.6542	-12.8183
+53	NGC 7092  	 1.36	 0.29	 1.72	 0.16	 1.8	  3.5	 0.19	Tarrab           	1982A&A...109..285T	NGC 7092                     	NED	322.9500	+48.4333
+54	NGC 3766  	 1.36	 0.50	 1.53	 0.12	 4.5	 14.1	 0.18	Tarrab           	1982A&A...109..285T	NGC 3766                     	NED	174.0750	-61.6150
+55	NGC 2548  	 1.36	 0.30	 4.05	 0.94	 2.0	  4.0	 1.11	Tarrab           	1982A&A...109..285T	NGC 2548                     	NED	123.4292	-05.7500
+56	NGC 6823  	 1.36	 0.60	 2.30	 0.40	10.0	 40.0	 0.71	Massey et al.    	1995ApJ...454..151M	NGC 6823                     	NED	295.7875	+23.3000
+57	IC2391    	 1.36	 0.65	 2.13	 0.34	 1.4	  6.3	 0.67	Tarrab           	1982A&A...109..285T	IC2391                       	NED	130.1333	-53.0333
+58	NGC 2301  	 1.34	 0.60	 2.56	 0.49	 1.4	  5.6	 0.85	Tarrab           	1982A&A...109..285T	NGC 2301                     	NED	102.9375	+00.4600
+59	NGC 884   	 1.34	 0.50	 1.29	 0.06	 4.5	 14.1	 0.09	Tarrab           	1982A&A...109..285T	NGC 884                      	NED	035.5958	+57.1250
+60	NGC 7160  	 1.34	 0.80	 2.52	 0.45	 2.0	 12.6	 1.14	Tarrab           	1982A&A...109..285T	NGC 7160                     	NED	328.4167	+62.6033
+61	NGC 4609  	 1.32	 0.55	 2.02	 0.30	 2.8	 10.0	 0.46	Tarrab           	1982A&A...109..285T	NGC 4609                     	NED	190.5750	-62.9950
+62	Cr140     	 1.32	 0.60	 2.58	 0.51	 2.0	  7.9	 0.85	Tarrab           	1982A&A...109..285T	Cl Collinder 140             	NED	111.1125	-31.8500
+63	NGC 2571  	 1.30	 0.66	 3.30	 0.65	 2.2	 10.0	 1.19	Tarrab           	1982A&A...109..285T	NGC 2571                     	NED	124.7333	-29.7500
+64	NGC 2439  	 1.30	 0.30	 1.60	 0.14	 7.1	 14.1	 0.15	Tarrab           	1982A&A...109..285T	NGC 2439                     	NED	115.1875	-31.6933
+65	NGC 1893  	 1.28	 0.81	 2.60	 0.30	10.0	 65.0	 0.70	Massey et al.    	1995ApJ...454..151M	NGC 1893                     	NED	080.6833	+33.4117
+66	IC2581    	 1.26	 0.64	 2.07	 0.36	 3.2	 14.1	 0.61	Tarrab           	1982A&A...109..285T	IC2581                       	NED	156.8708	-57.6167
+67	NGC 1528  	 1.26	 0.45	 1.15	 0.03	 2.0	  5.6	 0.04	Tarrab           	1982A&A...109..285T	NGC 1528                     	NED	063.8458	+51.2150
+68	NGC 2482  	 1.26	 0.51	 4.33	 0.95	 2.2	  7.1	 1.26	Tarrab           	1982A&A...109..285T	NGC 2482                     	NED	118.8000	-24.2583
+69	NGC 2251  	 1.20	 0.49	 2.36	 0.49	 1.6	  5.0	 0.60	Tarrab           	1982A&A...109..285T	NGC 2251                     	NED	098.6583	+08.3667
+70	NGC 6242  	 1.20	 0.50	 2.15	 0.39	 4.0	 12.6	 0.48	Tarrab           	1982A&A...109..285T	NGC 6242                     	NED	253.9000	-39.4667
+71	NGC 2232  	 1.20	 0.60	 2.73	 0.63	 2.0	  7.9	 0.92	Tarrab           	1982A&A...109..285T	NGC 2232                     	NED	096.8125	-04.7583
+72	NGC 6531  	 1.20	 0.76	 1.94	 0.34	 2.5	 14.5	 0.66	Tarrab           	1982A&A...109..285T	NGC 6531                     	NED	271.0542	-22.4900
+73	NGC 1664  	 1.18	 0.26	 3.62	 0.96	 2.5	  4.5	 0.90	Tarrab           	1982A&A...109..285T	NGC 1664                     	NED	072.7750	+43.6750
+74	NGC 581   	 1.18	 0.35	 3.09	 0.78	 6.3	 14.1	 0.78	Tarrab           	1982A&A...109..285T	NGC 581                      	NED	023.3458	+60.6500
+75	NGC 7790  	 1.15	 0.45	 2.44	 0.54	 4.5	 12.6	 0.58	Tarrab           	1982A&A...109..285T	NGC 7790                     	NED	359.6000	+61.2083
+76	NGC 3590  	 1.15	 0.40	 2.07	 0.36	 5.6	 14.1	 0.37	Tarrab           	1982A&A...109..285T	NGC 3590                     	NED	168.2458	-60.7883
+77	NGC 6709  	 1.15	 0.20	 1.98	 0.28	 3.5	  5.6	 0.25	Tarrab           	1982A&A...109..285T	NGC 6709                     	NED	282.8250	+10.3183
+78	NGC 6871  	 1.11	 0.35	 2.18	 0.40	 5.6	 12.6	 0.38	Tarrab           	1982A&A...109..285T	NGC 6871                     	NED	301.4958	+35.7767
+79	NGC 5281  	 1.11	 0.46	 2.02	 0.36	 3.5	 10.0	 0.38	Tarrab           	1982A&A...109..285T	NGC 5281                     	NED	206.6458	-62.9167
+80	NGC 2169  	 1.08	 0.60	 1.74	 0.27	 2.8	 11.2	 0.35	Tarrab           	1982A&A...109..285T	NGC 2169                     	NED	092.1000	+13.9900
+81	NGC 1502  	 1.08	 0.40	 1.56	 0.18	 5.6	 14.1	 0.17	Tarrab           	1982A&A...109..285T	NGC 1502                     	NED	061.9583	+62.3317
+82	NGC 1342  	 1.08	 0.36	 3.46	 1.05	 2.2	  5.0	 0.96	Tarrab           	1982A&A...109..285T	NGC 1342                     	NED	052.9083	+37.3767
+83	NGC 2244  	 1.08	 0.85	 1.80	 0.30	10.0	 70.0	 0.55	Massey et al.    	1995ApJ...454..151M	NGC 2244                     	NED	097.9792	+04.9417
+84	NGC 6871  	 1.04	 0.60	 1.90	 0.40	10.0	 40.0	 0.51	Massey et al.    	1995ApJ...454..151M	NGC 6871                     	NED	301.4958	+35.7767
+85	NGC 7380  	 1.04	 0.81	 2.70	 0.30	10.0	 65.0	 0.51	Massey et al.    	1995ApJ...454..151M	NGC 7380                     	NED	341.8375	+58.1317
+86	Berkeley86	 1.00	 0.60	 2.70	 0.40	10.0	 40.0	 0.49	Massey et al.    	1995ApJ...454..151M	Berkeley86                   	NED	305.0500	+38.6900
+87	NGC 2323  	 0.90	 0.20	 4.42	 1.73	 5.0	  7.9	 1.36	Tarrab           	1982A&A...109..285T	NGC 2323                     	NED	105.6979	-08.3378
+88	NGC 6913  	 0.78	 0.60	 2.10	 0.60	10.0	 40.0	 0.72	Massey et al.    	1995ApJ...454..151M	NGC 6913                     	NED	305.9833	+38.5233
+89	CepOB5    	 0.78	 0.48	 3.10	 0.60	10.0	 30.0	 0.59	Massey et al.    	1995ApJ...454..151M	Ass Cep OB 5                 	NED	345.5670	+57.0220
+
